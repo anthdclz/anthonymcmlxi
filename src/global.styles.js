@@ -31,7 +31,11 @@ body {
   
 a {
   text-decoration: none;
-  color: #dc9;
+  color: rgb(96, 208, 255);
+
+  &:hover{
+    filter: contrast(125%);
+  }
 }
 * {
   box-sizing: border-box;
@@ -47,9 +51,18 @@ h1, h2 {
   font-family: 'Comfortaa', sans-serif;
   color: ${trimColor};
 }
-h3{
+h3, h4{
   font-family: 'Poppins', sans-serif;
 }
+
+.fw-sb {
+  font-weight:600;
+}
+
+.m-bottom-0 {
+  margin-bottom: 0;
+}
+
 
 @media screen and (max-width:900px) {
   .gallery-item {

@@ -1,11 +1,10 @@
 import React from 'react';
+import Resume from '../../components/resume/resume.component';
 import './home-page.styles.scss';
 
 const HomePage = () => (
     <div className='page-content'>
-        <h1>Home Page</h1>
-        <h2>Hello</h2>
-        <div>World</div>
+        <Resume />
     </div>
 );
 
