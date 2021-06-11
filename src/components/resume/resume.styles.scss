@@ -1,0 +1,18 @@
+.resume-wrapper {
+    width: 800px;
+    margin: 0 auto;
+
+    .resume-body {
+        display: flex;
+        flex-direction: column;
+
+        .resume-horiz {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .resume-section {
+            width: 45%;
+        }
+    }
+}
