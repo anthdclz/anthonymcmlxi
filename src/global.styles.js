@@ -1,9 +1,16 @@
 import { createGlobalStyle } from 'styled-components';
+const mainColor = '#e70a0a';
+const trimColor = '#ffd860';
 
 export const GlobalStyle = createGlobalStyle`
+
 body {
-  background-color: #faa;
+  background-color: ${mainColor};
   color: #eee;
+
+  .color-trim {
+    color: ${trimColor};
+  }
 
   & .page {
     padding: 90px 40px 20px;
@@ -13,8 +20,7 @@ body {
     }
   }
 
-
-  & .item-page .page {
+  .page-content{
     padding: 20px 60px;
 
     @media screen and (max-width:900px) {
@@ -38,8 +44,11 @@ a {
 }
 
 h1, h2 {
-  margin-left: 20px;
-  color: #feb;
+  font-family: 'Comfortaa', sans-serif;
+  color: ${trimColor};
+}
+h3{
+  font-family: 'Poppins', sans-serif;
 }
 
 @media screen and (max-width:900px) {
