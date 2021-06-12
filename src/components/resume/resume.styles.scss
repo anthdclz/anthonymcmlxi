@@ -1,6 +1,22 @@
 .resume-wrapper {
     width: 800px;
     margin: 0 auto;
+    font-size: 14px;
+
+    .resume-header{
+        & h1 {
+            text-align: center;
+        }
+        .resume-horiz {
+            display: flex;
+            justify-content: space-evenly;
+
+            & div{
+                width: 50%;
+                text-align: center;
+            }
+        }
+    }
 
     .resume-body {
         display: flex;

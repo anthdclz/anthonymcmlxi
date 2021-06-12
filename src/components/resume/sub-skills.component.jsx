@@ -5,7 +5,7 @@ class SubSkills extends React.Component {
         return (
             <div className='resume-section'>
                 <h2>Skills</h2>
-	JavaScript, es6, HTML, CSS, React, jQuery, SASS, PHP, JSON, Bootstrap, Java, XML, SQL, Git, WordPress.org, IntelliJ IDEA, Visual Studio
+	JavaScript, es6, HTML, CSS, React, jQuery, Sass, PHP, JSON, Bootstrap, Java, XML, SQL, Git, WordPress.org, IntelliJ IDEA, Visual Studio
             </div>
         );
     }

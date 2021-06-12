@@ -1,9 +1,9 @@
 import React from 'react';
 
-const SimpleLink = ({url}) => {
-    console.log(url);
+const SimpleLink = ({url, name, ...otherProps}) => {
+    const displayName = name ? name : url;
     return (
-        <a href={url} target="_blank" rel="noopener noreferrer">{url}</a>
+        <a href={url} target="_blank" rel="noopener noreferrer" {...otherProps}>{displayName}</a>
     );
 };
 export default SimpleLink;
