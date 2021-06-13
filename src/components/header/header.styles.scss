@@ -1,0 +1,22 @@
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    position:fixed;
+    z-index:100;
+
+    @media screen and (max-width:900px) {
+      padding: 20px;
+    }
+
+    & .hdr-left {
+      display: flex;
+    }
+
+    .hdr-back, .hdr-option {
+      cursor: pointer;
+    }
+}
+  

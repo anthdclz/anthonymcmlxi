@@ -12,27 +12,31 @@ class Resume extends React.Component {
             <div className='resume-wrapper'>
                 <div className='resume-header'>
                     <h1>Anthony dela Calzada</h1>
-                    <div className='resume-horiz'>
-                        <div>Senior Web Developer, Growth Team Engineer</div>
-                        <div><a href="mailto:anthony.delacalzada@gmail.com?subject=Inquiry" target="_blank" rel="noopener noreferrer">anthony.delacalzada@gmail.com</a></div>
-                    </div>
-                    <div className='resume-horiz'>
-                        <div>Bachelor of Science, Computer Science</div>
-                        <div><SimpleLink className='fw-sb' name='Kaffa - Web Demo' url='https://ghost-view-demo.herokuapp.com/' /></div>
-                        <div className='web-hidden'><SimpleLink url='https://ghost-view-demo.herokuapp.com/' /></div>
+                    <div className='r-hdr-content'>
+                        <span className='r-hdr-item'>Senior Web Developer, Growth Team Engineer</span>
+                        <span className='fw-sb'>•</span>
+                        <span className='r-hdr-item'><a href="mailto:anthony.delacalzada@gmail.com?subject=Inquiry" target="_blank" rel="noopener noreferrer">anthony.delacalzada@gmail.com</a></span><br />
+                        <span className='r-hdr-item'>Bachelor of Science, Computer Science</span>
+                        <span className='fw-sb'>•</span>
+                        <span className='r-hdr-item'><SimpleLink className='fw-sb' name='"Caffa" - Web Demo' url='https://ghost-view-demo.herokuapp.com/' /></span>
+                        <br className='web-hidden' />
+                        <span className='r-hdr-item web-hidden'><SimpleLink url='https://ghost-view-demo.herokuapp.com/' /></span>
                     </div>
                 </div>
-                <div className='resume-body'>
-                    <div className='resume-horiz'>
-                        <SubAbout />
-                        <SubExp />
+                <div className='resume-body m-top-30'>
+                    <SubAbout />
+                    <SubSkills />
+                    <SubExp />
+                    <div className='page-break'></div>
+                    <SubEdu />
+                    <div className='page-break'></div>
+                    <div className='resume-section'>
+                        <h2> </h2>
+                        <div>Email: <a href="mailto:anthony.delacalzada@gmail.com?subject=Inquiry" target="_blank" rel="noopener noreferrer" className='fw-sb'>anthony.delacalzada@gmail.com</a></div>
+                        <div>Web Demo: <SimpleLink className='fw-sb' name='"Caffa" • https://ghost-view-demo.herokuapp.com/' url='https://ghost-view-demo.herokuapp.com/' /></div>
+                        <div>Portfolio: <SimpleLink className='fw-sb' url='tbd' /></div>
+                        <div>LinkedIn: <SimpleLink className='fw-sb' url='https://www.linkedin.com/in/anthony-dela-calzada/' /></div>
                     </div>
-                    <div className='resume-horiz'>
-                        <SubEdu />
-                        <SubSkills />
-                    </div>
-                    <div className='m-top-20'>San Francisco, California</div>
-                    <div>LinkedIn: <SimpleLink url='https://www.linkedin.com/in/anthony-dela-calzada/' /></div>
                 </div>
             </div>
         );
