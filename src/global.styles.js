@@ -14,13 +14,32 @@ body {
     color: ${trimColor};
   }
 
-  & .page {
-    padding: 90px 40px 20px;
+  & .page-wrapper {
+    width: 900px;
+    margin: 0 auto;
 
+    & .page-divider {
+          height: 2px;
+          border-bottom: 1px #ffd860 solid;
+          margin: 60px 0;
+        }
+
+
+    & .page-flex {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    & .page-column {
+      display: flex;
+      flex-direction: column;
+      width: 48%;
+    }
     @media screen and (max-width:900px) {
       padding: 90px 0 20px;
     }
   }
+
 
   .page-content{
     padding: 20px 60px;
@@ -75,6 +94,9 @@ h3{
 .frt {
   float: right;
 }
+.m-top-60 {
+  margin-top: 60px;  
+}
 .m-top-30 {
   margin-top: 30px;  
 }
@@ -84,8 +106,31 @@ h3{
 .m-top-10 {
   margin-top: 10px;  
 }
+.m-top-0 {
+  margin-top: 0;  
+}
 .m-bottom-0 {
   margin-bottom: 0;
+}
+.m-bottom-60 {
+  margin-bottom: 60px;
+}
+.coffee-icon, .gamepad-icon, .chart-icon{
+    display: inline;
+    height: 16px;
+    line-height:32px;
+    margin: 0 10px;
+    vertical-align: -1px;
+}
+.side-proj{
+    a {
+      color: ${trimColor}
+    }
+    .coffee-icon, .gamepad-icon, .chart-icon{
+        height: 24px;
+        margin: 0 20px;
+        vertical-align: -4px;
+    }
 }
 
 @media screen and (max-width:900px) {

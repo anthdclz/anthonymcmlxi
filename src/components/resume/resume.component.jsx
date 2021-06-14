@@ -11,7 +11,7 @@ class Resume extends React.Component {
         return (
             <div className='resume-wrapper'>
                 <div className='resume-header'>
-                    <h1>Anthony dela Calzada</h1>
+                    <h1>Anthony&nbsp;&nbsp;&nbsp;dela Calzada</h1>
                     <div className='r-hdr-content'>
                         <span className='r-hdr-item'>Senior Web Developer, Growth Team Engineer</span>
                         <span className='fw-sb'>•</span>
