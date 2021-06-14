@@ -3,8 +3,6 @@ import Header from '../../components/header/header.component';
 
 import { ChartIcon } from '../../components/coffee-icon/coffee-icon.component';
 import { LbrRsiImage, SmaChartImage, SmaIndImage } from '../../components/chart-images/chart-images.component';
-
-
 import './chart-indicators-page.styles.scss';
 
 class ChartIndicatorsPage extends React.Component {

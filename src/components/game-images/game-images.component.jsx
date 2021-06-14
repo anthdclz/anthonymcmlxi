@@ -1,6 +1,6 @@
 import React from 'react';
 import MeshImage1Gif from '../../assets/images/game/mesh1.gif';
-import MeshImage2Gif from '../../assets/images/game/mesh1.gif';
+import MeshImage2Gif from '../../assets/images/game/mesh2.gif';
 import ShadingImageGif from '../../assets/images/game/shading2.gif';
 import UnityImage1Gif from '../../assets/images/game/unity1.gif';
 import UnityImage2Gif from '../../assets/images/game/unity2.gif';
