@@ -1,11 +1,17 @@
 import React from 'react';
+import Header from '../../components/header/header.component';
+
 import { ChartIcon } from '../../components/coffee-icon/coffee-icon.component';
+import { LbrRsiImage, SmaChartImage, SmaIndImage } from '../../components/chart-images/chart-images.component';
+
 
 import './chart-indicators-page.styles.scss';
 
 class ChartIndicatorsPage extends React.Component {
     render(){
         return (
+<div>
+    <Header />
     <div className='page-content'>
         <div className='page-wrapper'>
             <div className='m-top-60'>
@@ -14,21 +20,32 @@ class ChartIndicatorsPage extends React.Component {
             <div className='page-divider'></div>
             <div className='page-flex'>
                 <div className='page-column'>
-                    <div><ChartIcon />Creative Senior Web Developer with 7+ years of professional experience in the e-commerce space, providing for 2000 online retailers and over 10 million shoppers.</div>
-                    <div className='m-top-20'>Rapidly designed and deployed 5 A/B tests per month as part of a five member Growth Team to increase user activation and improve user experience.</div>
-                    <div className='m-top-20'>Delivers UI functionality and extensible page components with JavaScript, HTML and CSS within the agile dev landscape. Currently fulfilling personal ventures in finance, investing and game development.</div>
-                    <div className='m-top-20'>
-                        Web Demo<br />
-                        Résumé
-                    </div>
+                    <div><ChartIcon />My interest in Finance and Investing brought me down many rabbit holes. The competitive nature of the equity markets drove me to create my own Market Indicators providing more tools to aid in technical analysis. Coded in <span className='fw-sb'>PineScript</span> for the <span className='fw-sb'>TradingView</span> platform.</div>
                 </div>
                 <div className='page-column home-exp'>
-                    <div>Nov 2018 – Present</div>
-                    <h4>Projects in Finance and Game Development</h4>
+                    <SmaChartImage />
                 </div>
             </div>
+            <div className='page-flex m-top-60'>
+                <div className='page-column'>
+                    <div>SMA Histogrom Indicator - Assists in visualiziing the start of a larger trend. Extremely helpful in determining whether or not a new trend has a high probability of continuing.</div>
+                </div>
+                <div className='page-column home-exp'>
+                    <SmaIndImage />
+                </div>
+            </div>
+            <div className='page-flex m-top-60'>
+                <div className='page-column'>
+                    <div>Momentum Pinball - This uses the three-period RSI of a one-period rate of change by trader Linda Raschke. The pivot points help decide if tomorrow will be a buy or sell day. </div>
+                </div>
+                <div className='page-column home-exp'>
+                    <LbrRsiImage />
+                </div>
+            </div>
+            <div className='page-divider'></div>
         </div>
     </div>
+</div>
         );
     };
 };
