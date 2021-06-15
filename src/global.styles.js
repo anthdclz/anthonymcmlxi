@@ -122,7 +122,7 @@ h3{
     margin: 0 10px;
     vertical-align: -1px;
 }
-.side-proj, .home-skills{
+.side-proj, .home-skills, .home-intro{
     a {
       color: ${trimColor}
     }
@@ -230,7 +230,7 @@ h3{
       .resume-body{
         .r-skill-wrapper{
           overflow: scroll;
-          
+
           .r-skill{
             font-size:12px;
             line-height: 20px;
