@@ -26,7 +26,7 @@ class VideoGameDesignPage extends React.Component {
             <div className='page-divider'></div>
             <div className='page-flex'>
                 <div className='page-column'>
-                    <div><GamepadIcon />I've been into video games for a long time and finally took the plunge to see what it takes to design a more fleshed-out game. I wanted to show some pieces of my journey.</div>
+                    <div><GamepadIcon />I've been into video games for a long time and finally took the plunge to see what it takes to design a more fleshed-out game. The following are some pieces of my journey.</div>
                     <div className='m-top-20'>Here's a character mesh I created after "graduating" past the cube phase. I used <span className='fw-sb'>Rigify</span> to help rig the model up for animation. These were done in <span className='fw-sb'>Blender</span>.</div>
                 </div>
                 <div className='page-column'>
