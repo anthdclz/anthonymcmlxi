@@ -11,13 +11,16 @@ import './video-game-design-page.styles.scss';
 
 
 class VideoGameDesignPage extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     render(){
         return (
 <div>
     <Header />
     <div className='page-content'>
         <div className='page-wrapper'>
-            <div className='m-top-60'>
+            <div className='page-header m-top-60'>
                 <h2>Video Game Design</h2>
             </div>
             <div className='page-divider'></div>

@@ -36,7 +36,7 @@ body {
       width: 48%;
     }
     @media screen and (max-width:900px) {
-      padding: 90px 0 20px;
+      padding: 30px 0 20px;
     }
   }
 
@@ -58,7 +58,7 @@ a {
   color: rgb(152, 224, 255);
 
   &:hover{
-    filter: contrast(125%);
+    filter: contrast(133%);
   }
 }
 * {
@@ -122,7 +122,7 @@ h3{
     margin: 0 10px;
     vertical-align: -1px;
 }
-.side-proj{
+.side-proj, .home-skills{
     a {
       color: ${trimColor}
     }
@@ -146,6 +146,23 @@ h3{
             font-size:14px;
             line-height: 20x;
             margin: 0 20px;
+        }
+      }
+    }
+
+    & .page-wrapper{
+      width: 100%;
+
+      & .page-header{
+        margin-top: 0;
+      }
+
+      & .page-flex{
+        display: block;
+
+        & .page-column {
+          margin-top: 60px;
+          width: unset;
         }
       }
     }
