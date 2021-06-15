@@ -199,6 +199,12 @@ h3{
             line-height: 20x;
             margin: 0 20px;
         }
+        .print-small{
+          .r-hdr-item{
+            font-size: 10px;
+            line-height: 14px;
+          }
+        }
       }
       h1{
         font-size: 20px;
@@ -223,6 +229,8 @@ h3{
       }
       .resume-body{
         .r-skill-wrapper{
+          overflow: scroll;
+          
           .r-skill{
             font-size:12px;
             line-height: 20px;
