@@ -11,7 +11,7 @@ class SubExp extends React.Component {
                     <div><span className='fw-sb'>Self-employed</span><span className='r-date'>Nov 2018 – Present</span></div>
                     <div>San Francisco Bay Area</div>
                 </div>
-                <h3><SimpleLink className='rak' name='Rakuten' url='https://www.rakuten.com/r/ANTHON?eeid=28187' /></h3>
+                <h3><SimpleLink className='rak' name='Rakuten (TYO: 4755)' url='https://www.rakuten.com/r/ANTHON?eeid=28187' /></h3>
                 <h4 className='m-bottom-0'>Senior Web Developer</h4>
                 <div className='resume-horiz'>
                     <div><span className='fw-sb'>Full-time</span><span className='r-date'>Sep 2017 – Oct 2018</span></div>
