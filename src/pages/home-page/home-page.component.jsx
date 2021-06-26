@@ -23,7 +23,7 @@ class HomePage extends React.Component {
                             <div><h3 className='m-top-0'><CoffeeIcon />Hi! Anthony here...</h3></div>
                             <div>Creative Senior Web Developer with 7+ years of professional experience in the e-commerce space, providing for 2000 online retailers and over 10 million shoppers.</div>
                             <div className='m-top-20'>Rapidly designed and deployed 5 A/B tests per month as part of a five member Growth Team to increase user activation and improve user experience.</div>
-                            <div className='m-top-20'>Delivers UI functionality and extensible page components with JavaScript, HTML and CSS within the agile dev landscape. Excited to continue growth in the vast developer space.</div>
+                            <div className='m-top-20'>Delivers UI functionality and extensible page components with JavaScript, HTML and CSS within the agile dev landscape. Excited to continue growth in the innovative tech space.</div>
                         </div>
                         <div className='page-column home-exp'>
                             <div>Nov 2018 – Present</div>

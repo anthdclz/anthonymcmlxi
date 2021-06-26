@@ -18,7 +18,7 @@ class SubExp extends React.Component {
                     <div>San Francisco Bay Area</div>
                 </div>
 <span className='fw-sb'>•</span> Decreased dev overhead time of recurring promotions by 100% after producing content management tools for Marketing Ops and SEO teams<br />
-<span className='fw-sb'>•</span> Generated A/B tests for a successful site rebrand of “Ebates” to “Rakuten”<br />
+<span className='fw-sb'>•</span> Generated A/B tests for a successful site rebrand of “Ebates” to “Rakuten” - Best Rebrand/Relaunch by The Drum Marketing Awards<br />
 <span className='fw-sb'>•</span> Delivered UI functionality and extensible page components with JavaScript, HTML and CSS in an agile dev environment<br />
 <span className='fw-sb'>•</span> Introduced a new growth experimentation process for developers including ideation, variation implementation and data analytics<br />
 <span className='fw-sb'>•</span> Improved acquisition KPI’s in collaboration with the Business Intelligence, Marketing and User Experience teams<br />
