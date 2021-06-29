@@ -28,7 +28,7 @@ class Resume extends React.Component {
                             <span className='r-hdr-item'>Bachelor of Science, Computer Science</span>
                         </div>
                         <div className='print-small web-hidden mob-hidden'>
-                            <span className='r-hdr-item'>Caffa" Web Demo:&nbsp;&nbsp;&nbsp;<SimpleLink url='https://ghost-view-demo.herokuapp.com/' /></span><br />
+                            <span className='r-hdr-item'>"Caffa" Web Demo:&nbsp;&nbsp;&nbsp;<SimpleLink url='https://ghost-view-demo.herokuapp.com/' /></span><br />
                             <span className='r-hdr-item'>Portfolio:&nbsp;&nbsp;&nbsp;<SimpleLink url='https://anthony-delacalzada.herokuapp.com/' /></span>
                             <span className='fw-sb'>•</span>
                             <span className='r-hdr-item'>Bachelor of Science, Computer Science</span>
