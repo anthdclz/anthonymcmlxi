@@ -27,7 +27,7 @@ class HomePage extends React.Component {
                         </div>
                         <div className='page-column home-exp'>
                             <div>Nov 2018 – Present</div>
-                            <h4>Projects in Finance and Game Development</h4>
+                            <h4>Projects in Engineering, Finance and Game Design</h4>
                             <div className='fw-sb'>Self-employed</div>
 
                             <h3><SimpleLink className='rak' name='Rakuten (TYO: 4755)' url='https://www.rakuten.com/r/ANTHON?eeid=28187' /></h3>
