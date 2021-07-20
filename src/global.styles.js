@@ -192,7 +192,7 @@ h3{
 
       .resume-header{
         h1{
-          margin: 20px;
+          margin: 10px 20px 20px;
         }
         .r-hdr-item{
             font-size:12px;

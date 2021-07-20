@@ -6,9 +6,16 @@ class SubExp extends React.Component {
         return (
             <div className='resume-section'>
                 <h2>Experience</h2>
+                <h3 className='m-bottom-0'>Projects in Front End Software Engineering</h3>
+                <div className='resume-horiz'>
+                    <div>Jan 2021 – Present</div>
+                    <div>San Francisco Bay Area</div>
+                </div>
+                <span className='fw-sb'>•</span> Built Web Demos to expand knowledge in Front End web technologies and coding patterns.<br />
+                <span className='fw-sb'>•</span> Current Demo: <SimpleLink name='"Caffa" • https://ghost-view-demo.herokuapp.com/' url='https://ghost-view-demo.herokuapp.com/' /><br />
                 <h3 className='m-bottom-0'>Projects in Finance and Game Development</h3>
                 <div className='resume-horiz'>
-                    <div><span className='fw-sb'>Self-employed</span><span className='r-date'>Nov 2018 – Present</span></div>
+                    <div><span className='fw-sb'>Self-employed</span><span className='r-date'>Nov 2018 – Dec 2020</span></div>
                     <div>San Francisco Bay Area</div>
                 </div>
                 <h3><SimpleLink className='rak' name='Rakuten (TYO: 4755)' url='https://www.rakuten.com/r/ANTHON?eeid=28187' /></h3>

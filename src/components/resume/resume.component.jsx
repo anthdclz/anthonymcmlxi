@@ -14,7 +14,7 @@ class Resume extends React.Component {
                     <h1>Anthony&nbsp;&nbsp;&nbsp;dela Calzada</h1>
                     <div className='r-hdr-content'>
                         <div className='mob-hidden'>
-                            <span className='r-hdr-item'>Senior Web Developer</span>
+                            <span className='r-hdr-item'>Senior Software Engineer</span>
                             <span className='fw-sb'>•</span>
                             <span className='r-hdr-item'>Front End</span>
                             <span className='fw-sb'>•</span>
@@ -23,21 +23,21 @@ class Resume extends React.Component {
                         <div className='mob-hidden print-hidden'>
                             <span className='r-hdr-item'><SimpleLink className='fw-sb' name='"Caffa" - Web Demo' url='https://ghost-view-demo.herokuapp.com/' /></span>
                             <span className='fw-sb'>•</span>
-                            <span className='r-hdr-item'><SimpleLink className='fw-sb' name='Portfolio' url='https://anthony-delacalzada.herokuapp.com/' /></span>
+                            <span className='r-hdr-item'><SimpleLink className='fw-sb' name='Website' url='https://anthony-delacalzada.herokuapp.com/' /></span>
                             <span className='fw-sb'>•</span>
                             <span className='r-hdr-item'>Bachelor of Science, Computer Science</span>
                         </div>
                         <div className='print-small web-hidden mob-hidden'>
                             <span className='r-hdr-item'>"Caffa" Web Demo:&nbsp;&nbsp;&nbsp;<SimpleLink url='https://ghost-view-demo.herokuapp.com/' /></span><br />
-                            <span className='r-hdr-item'>Portfolio:&nbsp;&nbsp;&nbsp;<SimpleLink url='https://anthony-delacalzada.herokuapp.com/' /></span>
+                            <span className='r-hdr-item'>Website:&nbsp;&nbsp;&nbsp;<SimpleLink url='https://anthony-delacalzada.herokuapp.com/' /></span>
                             <span className='fw-sb'>•</span>
                             <span className='r-hdr-item'>Bachelor of Science, Computer Science</span>
                         </div>
                         <div className='mob-hdr web-hidden print-hidden'>
-                            <div className='r-hdr-item'>Senior Web Developer</div>
+                            <div className='r-hdr-item'>Senior Software Engineer</div>
                             <div className='r-hdr-item'>Front End</div>
                             <div className='r-hdr-item'>
-                                <span className='r-hdr-item'><SimpleLink className='fw-sb' name='Portfolio' url='https://anthony-delacalzada.herokuapp.com/' /></span>
+                                <span className='r-hdr-item'><SimpleLink className='fw-sb' name='Website' url='https://anthony-delacalzada.herokuapp.com/' /></span>
                                 <span className='fw-sb'>•</span>
                                 <span className='r-hdr-item'><SimpleLink className='fw-sb' name='"Caffa" - Web Demo' url='https://ghost-view-demo.herokuapp.com/' /></span>
                             </div>
@@ -56,9 +56,9 @@ class Resume extends React.Component {
                     <div className='resume-section'>
                         <h2> </h2>
                         <div>Email: <a href="mailto:anthony.delacalzada@gmail.com?subject=Inquiry" target="_blank" rel="noopener noreferrer">anthony.delacalzada@gmail.com</a></div>
-                        <div>Web Demo: <SimpleLink name='"Caffa" • https://ghost-view-demo.herokuapp.com/' url='https://ghost-view-demo.herokuapp.com/' /></div>
-                        <div>Portfolio: <SimpleLink url='https://anthony-delacalzada.herokuapp.com/' /></div>
                         <div>LinkedIn: <SimpleLink url='https://www.linkedin.com/in/anthony-dela-calzada/' /></div>
+                        <div>Web Demo: <SimpleLink name='"Caffa" • https://ghost-view-demo.herokuapp.com/' url='https://ghost-view-demo.herokuapp.com/' /></div>
+                        <div>Website: <SimpleLink url='https://anthony-delacalzada.herokuapp.com/' /></div>
                     </div>
                 </div>
             </div>
