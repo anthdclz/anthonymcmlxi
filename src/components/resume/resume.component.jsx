@@ -14,7 +14,7 @@ class Resume extends React.Component {
                     <h1>Anthony&nbsp;&nbsp;&nbsp;dela Calzada</h1>
                     <div className='r-hdr-content'>
                         <div className='mob-hidden'>
-                            <span className='r-hdr-item'>Senior Software Engineer</span>
+                            <span className='r-hdr-item'>Software Engineer</span>
                             <span className='fw-sb'>•</span>
                             <span className='r-hdr-item'>Front End</span>
                             <span className='fw-sb'>•</span>
@@ -34,7 +34,7 @@ class Resume extends React.Component {
                             <span className='r-hdr-item'>Bachelor of Science, Computer Science</span>
                         </div>
                         <div className='mob-hdr web-hidden print-hidden'>
-                            <div className='r-hdr-item'>Senior Software Engineer</div>
+                            <div className='r-hdr-item'>Software Engineer</div>
                             <div className='r-hdr-item'>Front End</div>
                             <div className='r-hdr-item'>
                                 <span className='r-hdr-item'><SimpleLink className='fw-sb' name='Website' url='https://anthony-delacalzada.herokuapp.com/' /></span>

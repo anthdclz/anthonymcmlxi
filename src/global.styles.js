@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 const mainBase = '#eee';
 const mainColor = '#e70a0a';
 const trimColor = '#ffd860';
-const printBase = '#e44';
+const printBase = '#333';
 
 export const GlobalStyle = createGlobalStyle`
 
