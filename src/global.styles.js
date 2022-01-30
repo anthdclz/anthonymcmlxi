@@ -115,7 +115,7 @@ h3{
 .m-bottom-60 {
   margin-bottom: 60px;
 }
-.coffee-icon, .gamepad-icon, .chart-icon{
+.coffee-icon, .gamepad-icon, .chart-icon, .boxing-icon, .analytics-icon{
     display: inline;
     height: 16px;
     line-height:32px;
@@ -126,7 +126,7 @@ h3{
     a {
       color: ${trimColor}
     }
-    .coffee-icon, .gamepad-icon, .chart-icon{
+    .coffee-icon, .gamepad-icon, .chart-icon, .boxing-icon, .analytics-icon{
         height: 24px;
         margin: 0 20px;
         vertical-align: -4px;

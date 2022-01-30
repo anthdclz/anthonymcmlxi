@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { CoffeeIcon, ChartIcon, GamepadIcon } from '../../components/coffee-icon/coffee-icon.component';
+import { CoffeeIcon, ChartIcon, BoxingIcon, AnalyticsIcon, GamepadIcon } from '../../components/coffee-icon/coffee-icon.component';
 import SimpleLink from '../../components/simple-link/simple-link.components';
 import './home-page.styles.scss';
 
@@ -55,9 +55,9 @@ class HomePage extends React.Component {
                         <br className='web-hidden' /><span className='fw-sb mob-hidden'>•</span>
                         CSS<span className='fw-sb'>•</span>React<span className='fw-sb'>•</span>Redux
                         <br className='web-hidden' /><span className='fw-sb mob-hidden'>•</span>jQuery<br className='mob-hidden' /><span className='fw-sb web-hidden'>•</span>
-            Sass<span className='fw-sb'>•</span>PHP<br className='web-hidden' /><span className='fw-sb mob-hidden'>•</span>JSON<span className='fw-sb'>•</span>Bootstrap<span className='fw-sb'>•</span>Java<br className='web-hidden' /><span className='fw-sb mob-hidden'>•</span>XML<span className='fw-sb'>•</span>SQL<br className='mob-hidden' /><span className='fw-sb web-hidden'>•</span>
-            Git<br className='web-hidden' /><span className='fw-sb mob-hidden'>•</span>WordPress.org<span className='fw-sb'>•</span>IntelliJ IDEA<br className='web-hidden' /><span className='fw-sb mob-hidden'>•</span>Visual Studio
-            </div>
+                        Sass<span className='fw-sb'>•</span>PHP<br className='web-hidden' /><span className='fw-sb mob-hidden'>•</span>JSON<span className='fw-sb'>•</span>Bootstrap<span className='fw-sb'>•</span>Java<br className='web-hidden' /><span className='fw-sb mob-hidden'>•</span>XML<span className='fw-sb'>•</span>SQL<br className='mob-hidden' /><span className='fw-sb web-hidden'>•</span>
+                        Git<br className='web-hidden' /><span className='fw-sb mob-hidden'>•</span>WordPress.org<span className='fw-sb'>•</span>IntelliJ IDEA<br className='web-hidden' /><span className='fw-sb mob-hidden'>•</span>Visual Studio
+                    </div>
                     <div className='page-divider'></div>
                     <div className='side-proj'>
                         <div className='m-bottom-60'>
@@ -68,24 +68,42 @@ class HomePage extends React.Component {
                                 <h3 className='m-top-0'>
                                     <a href='https://ghost-view-demo.herokuapp.com/' target="_blank" rel="noopener noreferrer">
                                         <CoffeeIcon />"Caffa" - Web Demo
-                            </a>
+                                    </a>
                                 </h3>
-                                <div>Fun website demo.</div>
+                                <div>Fun website demo reflecting a modern web application.</div>
                             </div>
                             <div className='page-column'>
                                 <h3 className='m-top-0'>
-                                    <Link to='/chart-indicators'>
-                                        <ChartIcon />Chart Indicators
-                            </Link>
+                                    <a href='https://charted-2e73b.web.app' rel="noopener noreferrer">
+                                        <ChartIcon />"Charted" - Web Demo
+                                    </a>
                                 </h3>
-                                <div>Market indicators to supplment chart analysis.</div>
+                                <div>Market simulator to gameify chart activity and chart creation tools.</div>
+                            </div>
+                        </div>
+                        <div className='page-flex'>
+                            <div className='page-column'>
+                                <h3 className='m-top-60'>
+                                    <a href='https://pocket-2dc44.web.app' rel="noopener noreferrer">
+                                        <BoxingIcon />"Pouch Fighter" - Web Demo
+                                    </a>
+                                </h3>
+                                <div>Turn-based and text-based head-to-head battle versus the CPU opponent.</div>
+                            </div>
+                            <div className='page-column'>
+                                <h3 className='m-top-60'>
+                                    <Link to='/chart-indicators'>
+                                        <AnalyticsIcon />Market Indicators
+                                    </Link>
+                                </h3>
+                                <div>Indicators that highlight over-extension and pivot points to supplment chart analysis.</div>
                             </div>
                         </div>
                         <div className='m-top-60'>
                             <h3>
                                 <Link to='/video-game-design'>
                                     <GamepadIcon />Video Game Design
-                        </Link>
+                                </Link>
                             </h3>
                             <div>Exploration of the video game design process.</div>
                         </div>
