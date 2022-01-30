@@ -15,7 +15,7 @@ class HomePage extends React.Component {
                 <div className='page-wrapper'>
                     <div className='page-header m-top-60'>
                         <h2>Anthony&nbsp;&nbsp;&nbsp;dela Calzada</h2>
-                        <h3><span>Software Engineer</span><br className='web-hidden' /><span className='fw-sb mob-hidden'>•</span><span>Front End</span></h3>
+                        <h3><span>Senior Software Engineer</span><br className='web-hidden' /><span className='fw-sb mob-hidden'>•</span><span>Front End</span></h3>
                     </div>
                     <div className='page-divider'></div>
                     <div className='page-flex'>

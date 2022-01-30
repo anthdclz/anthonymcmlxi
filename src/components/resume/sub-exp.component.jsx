@@ -12,7 +12,8 @@ class SubExp extends React.Component {
                     <div>San Francisco Bay Area</div>
                 </div>
                 <span className='fw-sb'>•</span> Built Web Demos to expand knowledge in Front End web technologies and coding patterns.<br />
-                <span className='fw-sb'>•</span> Current Demo: <SimpleLink name='"Caffa" • https://ghost-view-demo.herokuapp.com/' url='https://ghost-view-demo.herokuapp.com/' /><br />
+                <span className='fw-sb'>•</span> Modern Web Demo: <SimpleLink name='"Caffa" • https://ghost-view-demo.herokuapp.com/' url='https://ghost-view-demo.herokuapp.com/' /><br />
+                <span className='fw-sb'>•</span> D3 Demo (in progress): <SimpleLink name='"Charted" • https://charted-2e73b.web.app' url='https://charted-2e73b.web.app' /><br />
                 <h3 className='m-bottom-0'>Projects in Finance and Game Development</h3>
                 <div className='resume-horiz'>
                     <div><span className='fw-sb'>Self-employed</span><span className='r-date'>Nov 2018 – Dec 2020</span></div>

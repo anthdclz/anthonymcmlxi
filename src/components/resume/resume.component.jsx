@@ -14,7 +14,7 @@ class Resume extends React.Component {
                     <h1>Anthony&nbsp;&nbsp;&nbsp;dela Calzada</h1>
                     <div className='r-hdr-content'>
                         <div className='mob-hidden'>
-                            <span className='r-hdr-item'>Software Engineer</span>
+                            <span className='r-hdr-item'>Senior Software Engineer</span>
                             <span className='fw-sb'>•</span>
                             <span className='r-hdr-item'>Front End</span>
                             <span className='fw-sb'>•</span>

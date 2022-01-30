@@ -9,7 +9,7 @@ class SubSkills extends React.Component {
     }
     componentDidMount() {
         this.setState({
-            skills: ['JavaScript', 'es6', 'HTML', 'CSS', 'React', 'Redux', 'jQuery', 'Sass', 'PHP', 'JSON', 'Bootstrap', 'Java', 'XML', 'SQL', 'Git', 'WordPress.org', 'IntelliJ IDEA', 'Visual Studio']
+            skills: ['JavaScript', 'ES6+', 'HTML', 'CSS', 'React', 'Redux', 'jQuery', 'Sass', 'PHP', 'JSON', 'Responsive Web', 'Web Performance', 'Git', 'Bootstrap', 'Java', 'XML', 'SQL']
         });
     }
     render() {

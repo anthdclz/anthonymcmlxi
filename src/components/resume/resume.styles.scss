@@ -53,5 +53,9 @@
             display: flex;
             justify-content: space-between;
         }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
     }
 }
